@@ -635,6 +635,11 @@ progress {
   content: "— ";
 }
 
+.img-main {
+  width: 100%;
+  height: 172.61px;
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -8311,9 +8316,9 @@ fieldset:disabled .btn {
   line-height: 1.75 !important;
 }
 
-.text-start {
+/* .text-start {
   text-align: left !important;
-}
+} */
 
 .text-end {
   text-align: right !important;

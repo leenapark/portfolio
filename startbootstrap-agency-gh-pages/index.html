@@ -131,7 +131,7 @@
                             <img class="img-fluid" src="assets/img/portfolio/toy_main.png" alt="..." />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Explore</div>
+                            <div class="portfolio-caption-heading">TOY GAME</div>
                             <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
                         </div>
                     </div>
@@ -158,7 +158,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/doit.png" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Lines</div>
@@ -173,7 +173,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/slay_main.png" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Southwest</div>
@@ -188,7 +188,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/occu_main.png" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Window</div>
@@ -545,8 +545,8 @@
                                     </li>
                                     <li>
                                         <strong>프레임워크:</strong>
-                                        Spring Frameword 3.
-                                        MyBatis
+                                        Spring Framework 4.3.3
+                                        MyBatis 3.2.2
                                     </li>
                                     <li>
                                         <strong>DB:</strong>
@@ -682,7 +682,7 @@
                                     </li>
                                     <li>
                                         <strong>프레임워크:</strong>
-                                        Django REST Framework
+                                        Django
                                     </li>
                                     <li>
                                         <strong>DB:</strong>
@@ -737,16 +737,37 @@
                                             src="assets/img/portfolio/doit_google_login.png" alt="..." /></swiper-slide>
                                 </swiper-container>
                                 <p>
-
+                                    python으로 처음 만들어 본 웹 사이트.
+                                    로그인부터 게시판까지 기본적인 웹 사이트 기능을 사용해볼 수 있어서 django를 학습하기에 적합하였습니다.
                                 </p>
                                 <ul class="list-inline">
                                     <li>
-                                        <strong>Client:</strong>
-                                        Lines
+                                        <strong>언어:</strong>
+                                        Python, HTML/CSS, JavaScript
                                     </li>
                                     <li>
-                                        <strong>Category:</strong>
-                                        Branding
+                                        <strong>서버:</strong>
+                                        AWS EC2
+                                    </li>
+                                    <li>
+                                        <strong>언어:</strong>
+                                        HTML/CSS, JavaScript
+                                    </li>
+                                    <li>
+                                        <strong>IDE:</strong>
+                                        VS code
+                                    </li>
+                                    <li>
+                                        <strong>프레임워크:</strong>
+                                        Django
+                                    </li>
+                                    <li>
+                                        <strong>DB:</strong>
+                                        SQLite
+                                    </li>
+                                    <li>
+                                        <strong>IDE:</strong>
+                                        VS Code
                                     </li>
                                 </ul>
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
@@ -772,8 +793,8 @@
                         <div class="col-lg-8">
                             <div class="modal-body slider">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <h2 class="text-uppercase">아맞다 여행!</h2>
+                                <p class="item-intro text-muted">제주도 여행을 도와주는 웹 사이트</p>
 
                                 <swiper-container class="mySwiper" pagination="true" pagination-type="progressbar"
                                     navigation="true">
@@ -791,18 +812,43 @@
                                             src="assets/img/portfolio/slay_review.png" alt="..." /></swiper-slide>
                                 </swiper-container>
 
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
+                                <p>
+                                    여행객에게 필요한 부분을 세부적으로 나누어서 각 페이지를 나눴다. 크롤링, ml 을 사용할 수 있어서 무척 의미가 큰 프로젝트였다.
+                                    날씨 부분은 기상청 날씨누리을 실시간으로 크롤링해서 데이터를 보여주는 방식으로 진행하였습니다.
+                                    호스텔은 숙소 사이트를 크롤링하여 별점으로 세분화 하고 google JavaScript API 를 통해 지도를 그려 별점과 리뷰 데이터를 한번에 제공하는 방식을 사용하였습니다.
+                                    마지막으로 먹는 거에 진심인 한국인이 가장 중요하게 생각할 맛집 부분은 NAVER 지도에 제주도 맛집 인기순으로 정렬하여 리뷰와 별점을 수집하고
+                                    식당을 선택하면 해당 리뷰 리스트들을 이용자가 확인할 수 있다.
+                                    여기서 ml으로 예측한 부분은 수집한 데이터를 기반으로 새로운 데이터가 갱신되면 크롤링으로 받아온다고 가정하여 새로운 리뷰를 선택하면
+                                    실제로 이용한 사람이 호를 줬는지 불호를 줬는지 파악할 수 있도록 했다.
+                                </p>
                                 <ul class="list-inline">
                                     <li>
-                                        <strong>Client:</strong>
-                                        Southwest
+                                        <strong>언어:</strong>
+                                        Python, HTML/CSS, JavaScript
                                     </li>
                                     <li>
-                                        <strong>Category:</strong>
-                                        Website Design
+                                        <strong>언어:</strong>
+                                        HTML/CSS, JavaScript
+                                    </li>
+                                    <li>
+                                        <strong>IDE:</strong>
+                                        VS code
+                                    </li>
+                                    <li>
+                                        <strong>프레임워크:</strong>
+                                        Django
+                                    </li>
+                                    <li>
+                                        <strong>DB:</strong>
+                                        SQLite
+                                    </li>
+                                    <li>
+                                        <strong>IDE:</strong>
+                                        VS Code
+                                    </li>
+                                    <li>
+                                        <strong>API, 라이브러리:</strong>
+                                        Ajax, fetch
                                     </li>
                                 </ul>
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
@@ -828,38 +874,64 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <h2 class="text-uppercase">O'CCU</h2>
+                                <p class="item-intro text-muted">SNS</p>
 
                                 <swiper-container class="mySwiper" pagination="true" pagination-type="progressbar"
                                     navigation="true">
                                     <swiper-slide><img class="img-fluid d-block mx-auto"
-                                            src="assets/img/portfolio/slay_main.png" alt="..." /></swiper-slide>
+                                            src="assets/img/portfolio/occu_main.png" alt="..." /></swiper-slide>
                                     <swiper-slide><img class="img-fluid d-block mx-auto"
-                                            src="assets/img/portfolio/slay_menu.png" alt="..." /></swiper-slide>
+                                            src="assets/img/portfolio/occu_timeline.png" alt="..." /></swiper-slide>
                                     <swiper-slide><img class="img-fluid d-block mx-auto"
-                                            src="assets/img/portfolio/slay_weather.png" alt="..." /></swiper-slide>
+                                            src="assets/img/portfolio/occu_post.png" alt="..." /></swiper-slide>
                                     <swiper-slide><img class="img-fluid d-block mx-auto"
-                                            src="assets/img/portfolio/slay_hostel.png" alt="..." /></swiper-slide>
+                                            src="assets/img/portfolio/occu_dm.png" alt="..." /></swiper-slide>
                                     <swiper-slide><img class="img-fluid d-block mx-auto"
-                                            src="assets/img/portfolio/slay_restaurant.png" alt="..." /></swiper-slide>
+                                            src="assets/img/portfolio/occu_event.png" alt="..." /></swiper-slide>
                                     <swiper-slide><img class="img-fluid d-block mx-auto"
-                                            src="assets/img/portfolio/slay_review.png" alt="..." /></swiper-slide>
+                                            src="assets/img/portfolio/occu_form.png" alt="..." /></swiper-slide>
                                 </swiper-container>
 
 
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
+                                <p>
+                                    O'CCU(이하 오꾸)는 SNS(Social Network Service) 사이트이다.
+                                    K-POP이 세계적으로 인기를 끌고 있는 지금 아이돌 시장, 더 나아가 서브컬처(Subculture)는 더 이상 음지 취미가 아닙니다.
+                                    오꾸는 그런 특정 관심사를 가진 사람들을 대상으로 한 SNS입니다.
+                                    SNS을 프로젝트로 진행하면서 웹 어플리케이션 전체 틀을 JAVA로 구축하면서 멋모르고 배웠던 JAVA 언어를 더 깊게 이해하고 학습하는데 의미가 있었는데
+                                    ml/dl 의 강점을 가지고 있는 python으로 추천 모델을 만듦으로써 앞으로 뻗어나갈 인공 지능 분야의 무한한 가능성과 확장성을 몸소 체감할 수 있었습니다.
+                                    더 나아가면 모바일 서비스로도 만들 수 있는 주제로 좋은 학습의 기회였습니다.
+                                </p>
                                 <ul class="list-inline">
                                     <li>
-                                        <strong>Client:</strong>
-                                        Window
+                                        <strong>주요 기능:</strong>
+                                        게시물 및 공유, 커뮤니티 형성, 이벤트 - 개인 창작자/구매자 연결
                                     </li>
                                     <li>
-                                        <strong>Category:</strong>
-                                        Photography
+                                        <strong>언어:</strong>
+                                        JAVA(JDK 1.8), Python, HTML/CSS, JavaScript
+                                    </li>
+                                    <li>
+                                        <strong>서버:</strong>
+                                        Apache Tomcat 8.5
+                                    </li>
+                                    <li>
+                                        <strong>프레임워크:</strong>
+                                        FastAPI,
+                                        Spring Framework 4.3.3,
+                                        MyBatis 3.2.2
+                                    </li>
+                                    <li>
+                                        <strong>DB:</strong>
+                                        Oracle 11g Enterprise
+                                    </li>
+                                    <li>
+                                        <strong>IDE:</strong>
+                                        eclipse, VS code
+                                    </li>
+                                    <li>
+                                        <strong>API, 라이브러리:</strong>
+                                        Jquery, Pandas, numpy, joblib
                                     </li>
                                 </ul>
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
